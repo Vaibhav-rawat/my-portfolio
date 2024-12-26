@@ -21,8 +21,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${spaceMono.variable}`}>
-        <ThemeProvider>{children}</ThemeProvider>
+      <body className={`${spaceMono.variable} bg-primary`}>
+        <ThemeProvider>
+          <main>{children}</main>
+        </ThemeProvider>
       </body>
     </html>
   );

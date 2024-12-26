@@ -15,11 +15,11 @@ function ThemeButton({ value, ariaLabel, title }: Readonly<ThemeButtonProps>) {
   } else if (value === "light") {
     bgColor = "bg-white";
   } else {
-    bgColor = "bg-yellow-100";
+    bgColor = "bg-amber-900";
   }
   return (
     <button
-      className={`h-4 w-4 border border-black ${bgColor} rounded-full`}
+      className={`h-3 w-3 border  border-black ${bgColor} rounded-full`}
       aria-label={ariaLabel}
       title={title}
       onClick={() => setTheme(value)}
