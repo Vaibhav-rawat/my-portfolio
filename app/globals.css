@@ -11,7 +11,7 @@ body {
 }
 
 [data-theme="light"] {
-  --color-primary: #f2f9ff;
+  --color-primary: #eeeeee;
   --color-secondary: #ffffff;
   --color-text-base: #000000;
   --color-text-base-secondary: #141414;
@@ -26,8 +26,8 @@ body {
 }
 /* Retro theme */
 [data-theme="retro"] {
-  --color-primary: #9f5255;
-  --color-secondary: #fffdec;
+  --color-primary: #c98686;
+  --color-secondary: #fffcdf;
   --color-text-base: #000000;
   --color-text-base-secondary: #141414;
 }
