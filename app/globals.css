@@ -10,13 +10,6 @@ body {
   font-family: var(--font-space-mono);
 }
 
-[data-theme="light"] {
-  --color-primary: #eeeeee;
-  --color-secondary: #ffffff;
-  --color-text-base: #000000;
-  --color-text-base-secondary: #141414;
-}
-
 /* Dark theme */
 [data-theme="dark"] {
   --color-primary: #000000;
@@ -24,6 +17,13 @@ body {
   --color-text-base: #ffffff;
   --color-text-base-secondary: #dddddd;
 }
+[data-theme="light"] {
+  --color-primary: #eeeeee;
+  --color-secondary: #ffffff;
+  --color-text-base: #000000;
+  --color-text-base-secondary: #141414;
+}
+
 /* Retro theme */
 [data-theme="retro"] {
   --color-primary: #c98686;
