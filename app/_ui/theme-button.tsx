@@ -19,7 +19,7 @@ function ThemeButton({ value, ariaLabel, title }: Readonly<ThemeButtonProps>) {
   }
   return (
     <button
-      className={`h-3 w-3 xl:h-5 xl:w-5 border  border-gray-500 ${bgColor} rounded-full`}
+      className={`h-3 w-3 2xl:h-5 2xl:w-5 border  border-gray-500 ${bgColor} rounded-full`}
       aria-label={ariaLabel}
       title={title}
       onClick={() => setTheme(value)}

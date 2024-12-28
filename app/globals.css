@@ -31,3 +31,8 @@ body {
   --color-text-base: #000000;
   --color-text-base-secondary: #141414;
 }
+
+.my-stack-height {
+  --window-bar-height: 24px;
+  height: calc(100% - var(--window-bar-height));
+}
