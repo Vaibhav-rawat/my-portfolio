@@ -1,7 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+@layer components {
+  .skill-badge {
+    @apply flex justify-center items-center w-11 h-11 lg:w-16 lg:h-16 p-2 border border-dashed border-gray-500 rounded-lg text-tBase hover:text-white;
+  }
+}
 * {
   transition: background-color 0.3s ease, color 0.1s ease;
 }
@@ -32,7 +36,7 @@ body {
   --color-text-base-secondary: #141414;
 }
 
-.my-stack-height {
+.custom-height {
   --window-bar-height: 24px;
   height: calc(100% - var(--window-bar-height));
 }

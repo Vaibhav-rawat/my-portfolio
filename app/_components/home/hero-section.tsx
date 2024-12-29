@@ -2,13 +2,15 @@ import { RoughNotation, RoughNotationGroup } from "react-rough-notation";
 import Window from "../common/window";
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
+import { TbFileCv, TbBrandLinkedin, TbBrandInstagram } from "react-icons/tb";
 
 function HeroSection() {
   return (
     <section className="container mx-auto my-10">
       <Window title="vaibhav.dev_">
         <div className="flex flex-col md:flex-row items-center justify-center bg-secondary px-2 gap-2 py-10 md:py-16 lg:py-16 2xl:py-36">
-          <div className="md:w-1/3">
+          <div className="md:w-1/3 text-center">
             <Image
               className="mx-auto rounded-lg shadow-xl	"
               alt="It's Me!"
@@ -94,6 +96,33 @@ function HeroSection() {
                 </RoughNotation>
               </p>
             </RoughNotationGroup>
+            <div className="mt-5 gap-2 flex items-center">
+              <Link
+                target="_blank"
+                className="text-tBaseSecondary text-lg  inline-block scale-x-125"
+                title="My Resume"
+                href="https://flowcv.com/resume/01oc5juss1"
+              >
+                <TbFileCv size={35} />
+              </Link>
+              <Link
+                target="_blank"
+                className="text-tBaseSecondary text-lg  inline-block "
+                title="My LinkedIn"
+                href="https://www.linkedin.com/in/vaibhavrawat-dev/"
+              >
+                <TbBrandLinkedin size={35} />
+              </Link>
+
+              <Link
+                target="_blank"
+                className="text-tBaseSecondary text-lg  inline-block "
+                title="My Instagram"
+                href="https://www.instagram.com/vaibhav_rwtt/"
+              >
+                <TbBrandInstagram size={39} />
+              </Link>
+            </div>
           </div>
         </div>
       </Window>

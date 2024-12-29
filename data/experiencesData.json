@@ -1,0 +1,48 @@
+[
+  {
+    "title": "current.org",
+    "role": "Senior Software Engineer",
+    "duration": "(02/2024 - present)",
+    "company": {
+      "name": "Bounteous x Accolite",
+      "website": "https://www.bounteous.com/"
+    },
+    "responsibilities": [
+      "Worked on Generative AI and AI prompt engineering to boost product adoption rate.",
+      "Enabled streaming of API responses to support streaming in the form of a custom scalable hook.",
+      "Implemented a solution to render Markdown API responses in a legible format, utilizing the Markdown library to ensure compliance with React security measures.",
+      "Led the seamless migration of the backend system from an older Node.js version (v10) to the latest one (v18), ensuring better performance and long-term sustainability."
+    ]
+  },
+  {
+    "title": "past.org",
+    "role": "Product Engineer",
+    "duration": "(09/2023 - 02/2024)",
+    "company": {
+      "name": "Fitbots OKRs",
+      "website": "https://www.fitbots.com/"
+    },
+    "responsibilities": [
+      "Worked on Generative AI and AI prompt engineering to boost product adoption rate.",
+      "Enabled streaming of API responses to support streaming in the form of a custom scalable hook.",
+      "Implemented a solution to render Markdown API responses in a legible format, utilizing the Markdown library to ensure compliance with React security measures.",
+      "Led the seamless migration of the backend system from an older Node.js version (v10) to the latest one (v18), ensuring better performance and long-term sustainability."
+    ]
+  },
+  {
+    "title": "past.org",
+    "role": "Full Stack Developer",
+    "duration": "(05/2021 - 09/2023)",
+    "company": {
+      "name": "Specscart",
+      "website": "https://specscart.co.uk/"
+    },
+    "responsibilities": [
+      "Built and designed several libraries, to reduce dependence on third-party solutions, resulting in more efficient page load times.",
+      "Designed an internal system to track each stage of a product for efficient time management within the warehouse.",
+      "Integrated PayPal, Stripe, and Square payment gateways, expanding payment options for customers.",
+      "Integrated logistics & shipping software such as ShipStation for a better hassle-free delivery system.",
+      "Migrated Excel-based tasks to system and implemented chart libraries for enhanced data visualization."
+    ]
+  }
+]

@@ -20,21 +20,77 @@ function Skills() {
       <div className="flex flex-col md:flex-row">
         <div className="md:w-1/2">
           <Window title="my.stack">
-            <div className="flex gap-2 content-center justify-center flex-wrap bg-secondary my-stack-height">
-              <SkillBadge icon={RiNextjsFill} title="Next.js" />
-              <SkillBadge icon={BiLogoTypescript} title="TypeScript" />
-              <SkillBadge icon={FaReact} title="React" />
-              <SkillBadge icon={FaNodeJs} title="Node.js" />
-              <SkillBadge icon={IoLogoJavascript} title="JavaScript" />
-              <SkillBadge icon={RiTailwindCssFill} title="Tailwind" />
-              <SkillBadge icon={SiMongodb} title="MongoDB" />
-              <SkillBadge icon={FaCss3Alt} title="CSS3" />
-              <SkillBadge icon={FaHtml5} title="HTML5" />
-              <SkillBadge icon={SiJquery} title="JQuery" />
-              <SkillBadge icon={FaBootstrap} title="Bootstrap" />
-              <SkillBadge icon={IoLogoFirebase} title="Firebase" />
-              <SkillBadge icon={FaGitAlt} title="Git" />
-              <SkillBadge icon={SiMongoose} title="Mongoose" />
+            <div className="flex gap-3 content-center justify-center flex-wrap bg-secondary custom-height">
+              <SkillBadge
+                className="hover:bg-[#000000] skill-badge"
+                icon={RiNextjsFill}
+                title="Next.js"
+              />
+              <SkillBadge
+                className="hover:bg-[#007acc] skill-badge"
+                icon={BiLogoTypescript}
+                title="TypeScript"
+              />
+              <SkillBadge
+                className="hover:bg-[#61dbfb] skill-badge"
+                icon={FaReact}
+                title="React"
+              />
+              <SkillBadge
+                className="hover:bg-[#3c873a] skill-badge"
+                icon={FaNodeJs}
+                title="Node.js"
+              />
+              <SkillBadge
+                className="hover:bg-[#F0DB4F] skill-badge"
+                icon={IoLogoJavascript}
+                title="JavaScript"
+              />
+              <SkillBadge
+                className="hover:bg-[#38bdf8] skill-badge"
+                icon={RiTailwindCssFill}
+                title="Tailwind"
+              />
+              <SkillBadge
+                className="hover:bg-[#3FA037] skill-badge"
+                icon={SiMongodb}
+                title="MongoDB"
+              />
+              <SkillBadge
+                className="hover:bg-[#2965f1] skill-badge"
+                icon={FaCss3Alt}
+                title="CSS3"
+              />
+              <SkillBadge
+                className="hover:bg-[#f06529] skill-badge"
+                icon={FaHtml5}
+                title="HTML5"
+              />
+              <SkillBadge
+                className="hover:bg-[#0769ad] skill-badge"
+                icon={SiJquery}
+                title="JQuery"
+              />
+              <SkillBadge
+                className="hover:bg-[#0275d8] skill-badge"
+                icon={FaBootstrap}
+                title="Bootstrap"
+              />
+              <SkillBadge
+                className="hover:bg-[#f5820d] skill-badge"
+                icon={IoLogoFirebase}
+                title="Firebase"
+              />
+              <SkillBadge
+                className="hover:bg-[#f34f29] skill-badge"
+                icon={FaGitAlt}
+                title="Git"
+              />
+              <SkillBadge
+                className="hover:bg-[#880000] skill-badge"
+                icon={SiMongoose}
+                title="Mongoose"
+              />
             </div>
           </Window>
         </div>
