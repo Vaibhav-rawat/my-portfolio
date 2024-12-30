@@ -18,7 +18,7 @@ import { IoIosLink } from "react-icons/io";
 
 function Skills() {
   return (
-    <section className="container mx-auto my-10">
+    <section className="section">
       <div className="flex flex-col md:flex-row">
         <div className="md:w-1/2">
           <Window title="my.stack">
@@ -96,7 +96,7 @@ function Skills() {
             </div>
           </Window>
         </div>
-        <div className="md:w-1/2">
+        <div className="md:w-1/2 sub-section">
           <Window title="stack.explained">
             <div className="px-2 py-4 md:py-6 lg:py-10 2xl:py-16 bg-secondary">
               <p className=" text-tBase mb-1  text-base">Welcome</p>

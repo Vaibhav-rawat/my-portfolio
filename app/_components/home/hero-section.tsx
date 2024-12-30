@@ -7,10 +7,10 @@ import { TbFileCv, TbBrandLinkedin, TbBrandInstagram } from "react-icons/tb";
 
 function HeroSection() {
   return (
-    <section className="container mx-auto my-10">
+    <section className="section">
       <Window title="vaibhav.dev_">
         <div className="flex flex-col md:flex-row items-center justify-center bg-secondary px-2 gap-2 py-10 md:py-16 lg:py-16 2xl:py-36">
-          <div className="md:w-1/3 text-center">
+          <div className="md:w-1/3 text-center mb-5 md:mb-0 md:text-start">
             <Image
               className="mx-auto rounded-lg shadow-xl	"
               alt="It's Me!"
@@ -20,7 +20,7 @@ function HeroSection() {
               sizes="(min-width: 1040px) 285px, (min-width: 780px) 234px, (min-width: 380px) 285px, calc(71.67vw + 27px)"
             />
           </div>
-          <div className="md:w-2/3">
+          <div className="md:w-2/3 text-center md:text-start">
             <RoughNotationGroup show={true}>
               <h1 className="text-2xl font-bold text-tBase mb-4">
                 Hello! I&rsquo;m Vaibhav Rawat, a{" "}
@@ -96,7 +96,7 @@ function HeroSection() {
                 </RoughNotation>
               </p>
             </RoughNotationGroup>
-            <div className="mt-5 gap-2 flex items-center">
+            <div className="mt-5 gap-2 flex items-center justify-center md:justify-start">
               <Link
                 target="_blank"
                 className="text-tBaseSecondary text-lg  inline-block scale-x-125"

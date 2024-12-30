@@ -5,7 +5,7 @@ type WindowProps = {
 };
 function Window({ children, title }: PropsWithChildren<WindowProps>) {
   return (
-    <div className="relative border border-gray-500 mx-5 rounded-md overflow-hidden h-full">
+    <div className="relative border border-gray-500 mx-3 rounded-md overflow-hidden h-full">
       <div className="flex px-1 py-1 2xl:px-3 2xl:py-3 items-center">
         <div className="flex gap-1">
           <ThemeButton
