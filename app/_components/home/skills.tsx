@@ -13,6 +13,8 @@ import { RiNextjsFill, RiTailwindCssFill } from "react-icons/ri";
 import { BiLogoTypescript } from "react-icons/bi";
 import { IoLogoJavascript, IoLogoFirebase } from "react-icons/io5";
 import SkillBadge from "@/app/_ui/skill-badge";
+import Link from "next/link";
+import { IoIosLink } from "react-icons/io";
 
 function Skills() {
   return (
@@ -20,7 +22,7 @@ function Skills() {
       <div className="flex flex-col md:flex-row">
         <div className="md:w-1/2">
           <Window title="my.stack">
-            <div className="flex gap-3 content-center justify-center flex-wrap bg-secondary custom-height">
+            <div className="flex gap-5 lg:gap-3 content-center justify-center flex-wrap bg-secondary custom-height px-2 py-4">
               <SkillBadge
                 className="hover:bg-[#000000] skill-badge"
                 icon={RiNextjsFill}
@@ -97,16 +99,32 @@ function Skills() {
         <div className="md:w-1/2">
           <Window title="stack.explained">
             <div className="px-2 py-4 md:py-6 lg:py-10 2xl:py-16 bg-secondary">
-              <p className=" text-tBase mb-1">Apart from:</p>
-              <p className="text-base text-tBaseSecondary font-bold">
-                Next.js, TypeScript, React, Node.js, JavaScript, Tailwind,
-                MongoDB, CSS3, HTML5, JQuery, Bootstrap, Firebase, GIT,
-                Mongoose.
+              <p className=" text-tBase mb-1  text-base">Welcome</p>
+              <p className=" text-tBaseSecondary  text-sm">
+                I designed and developed this portfolio using Next.js and
+                Tailwind CSS to leverage modern web development capabilities and
+                create a more sophisticated user experience. Previously, I built
+                a{" "}
+                <Link
+                  href="https://vaibhavrawat.dev/"
+                  target="_blank"
+                  title="Checkout my old portfolio"
+                >
+                  portfolio
+                  <IoIosLink
+                    title="Checkout my old portfolio"
+                    size={13}
+                    className="inline-block"
+                  />
+                </Link>{" "}
+                using vanilla React without external libraries, demonstrating my
+                ability to work with both fundamental and advanced development
+                approaches.
               </p>
-              <p className=" text-tBase mb-1 mt-4">
+              <p className="text-base text-tBase  mb-1 mt-4">
                 I also have hands-on experience with:
               </p>
-              <p className="text-base text-tBaseSecondary font-bold">
+              <p className=" text-tBaseSecondary text-sm">
                 MySQL, Styled Components, JWT, ApexCharts.js, Formik, Chakra UI,
                 React Hook Form, Yep, Owl Carousel, Flickity, etc.
               </p>

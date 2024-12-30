@@ -17,7 +17,7 @@ function HeroSection() {
               height={380}
               width={285}
               src="/images/itsme.png"
-              sizes="(min-width: 1040px) 285px, (min-width: 780px) 248px, 282px"
+              sizes="(min-width: 1040px) 285px, (min-width: 780px) 234px, (min-width: 380px) 285px, calc(71.67vw + 27px)"
             />
           </div>
           <div className="md:w-2/3">
