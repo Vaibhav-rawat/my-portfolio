@@ -23,7 +23,12 @@ function InfoDetail({
         <br />
         <CiAt title="At" size={15} className="inline-block" />
         {website ? (
-          <Link title="visit org website" rel="noreferrer" href={website}>
+          <Link
+            target="_blank"
+            title="visit org website"
+            rel="noreferrer"
+            href={website}
+          >
             <span className="text-sm mx-1">{name}</span>
             <IoIosLink title="visit" size={13} className="inline-block" />
           </Link>

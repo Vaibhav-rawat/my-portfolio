@@ -9,7 +9,7 @@ function Experience() {
         {ExperiencesData.map((experience: ExperienceTypes, index: number) => (
           <div
             key={index}
-            className={`md:w-1/2 xl:w-1/3 ${index !== 0 ? "sub-section" : ""}`}
+            className={`md:w-1/3 ${index !== 0 ? "sub-section" : ""}`}
           >
             <Window title={experience.title}>
               <ExperienceCard experience={experience} />

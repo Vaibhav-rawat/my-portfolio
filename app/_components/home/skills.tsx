@@ -15,6 +15,7 @@ import { IoLogoJavascript, IoLogoFirebase } from "react-icons/io5";
 import SkillBadge from "@/app/_ui/skill-badge";
 import Link from "next/link";
 import { IoIosLink } from "react-icons/io";
+import { PiHandWaving } from "react-icons/pi";
 
 function Skills() {
   return (
@@ -99,7 +100,10 @@ function Skills() {
         <div className="md:w-1/2 sub-section">
           <Window title="stack.explained">
             <div className="px-2 py-4 md:py-6 lg:py-10 2xl:py-16 bg-secondary">
-              <p className=" text-tBase mb-1  text-base">Welcome</p>
+              <p className=" text-tBase mb-1  text-base">
+                <PiHandWaving title="Hi there" className="inline-block mr-1 " />
+                Hi there
+              </p>
               <p className=" text-tBaseSecondary  text-sm">
                 I designed and developed this portfolio using Next.js and
                 Tailwind CSS to leverage modern web development capabilities and

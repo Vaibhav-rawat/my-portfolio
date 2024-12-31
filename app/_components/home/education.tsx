@@ -24,6 +24,7 @@ function Education() {
               <CertificatesDeck />
               <Link
                 title="View My Certificates"
+                rel="noreferrer"
                 className="text-xs text-tBaseSecondary w-full block text-center mt-5"
                 href="https://drive.google.com/drive/folders/1poZdcZMuFF3SBaP_EkoetCnbvfGYl-4p?usp=sharing"
                 target="_blank"
