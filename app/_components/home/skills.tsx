@@ -8,7 +8,7 @@ import {
   FaNodeJs,
   FaGitAlt,
 } from "react-icons/fa";
-import { SiMongodb, SiJquery, SiMongoose } from "react-icons/si";
+import { SiMongodb, SiJquery, SiMongoose, SiJest } from "react-icons/si";
 import { RiNextjsFill, RiTailwindCssFill } from "react-icons/ri";
 import { BiLogoTypescript } from "react-icons/bi";
 import { IoLogoJavascript, IoLogoFirebase } from "react-icons/io5";
@@ -43,6 +43,11 @@ function Skills() {
                 className="hover:bg-[#3c873a] skill-badge"
                 icon={FaNodeJs}
                 title="Node.js"
+              />
+              <SkillBadge
+                className="hover:bg-[#99425b] skill-badge"
+                icon={SiJest}
+                title="Jest"
               />
               <SkillBadge
                 className="hover:bg-[#F0DB4F] skill-badge"
@@ -100,7 +105,7 @@ function Skills() {
         <div className="md:w-1/2 sub-section">
           <Window title="stack.explained">
             <div className="px-2 py-4 md:py-6 lg:py-10 2xl:py-16 bg-secondary">
-              <p className=" text-tBase mb-1  text-base">
+              <p className=" text-tBase mb-1  text-base border-b border-dashed border-gray-500 mb-1 pb-1">
                 <PiHandWaving title="Hi there" className="inline-block mr-1 " />
                 Hi there
               </p>
