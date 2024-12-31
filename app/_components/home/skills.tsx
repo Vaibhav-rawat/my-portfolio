@@ -8,7 +8,7 @@ import {
   FaNodeJs,
   FaGitAlt,
 } from "react-icons/fa";
-import { SiMongodb, SiJquery, SiMongoose, SiJest } from "react-icons/si";
+import { SiMongodb, SiJquery } from "react-icons/si";
 import { RiNextjsFill, RiTailwindCssFill } from "react-icons/ri";
 import { BiLogoTypescript } from "react-icons/bi";
 import { IoLogoJavascript, IoLogoFirebase } from "react-icons/io5";
