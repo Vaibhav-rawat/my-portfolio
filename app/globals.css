@@ -61,3 +61,7 @@ body {
   font-weight: bold;
   color: #fff;
 }
+
+.video-link:hover span {
+  display: flex;
+}
