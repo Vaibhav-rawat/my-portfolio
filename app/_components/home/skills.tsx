@@ -16,6 +16,7 @@ import SkillBadge from "@/app/_ui/skill-badge";
 import Link from "next/link";
 import { IoIosLink } from "react-icons/io";
 import { PiHandWaving } from "react-icons/pi";
+import { GiJesterHat } from "react-icons/gi";
 
 function Skills() {
   return (
@@ -46,7 +47,7 @@ function Skills() {
               />
               <SkillBadge
                 className="hover:bg-[#99425b] skill-badge"
-                icon={SiJest}
+                icon={GiJesterHat}
                 title="Jest"
               />
               <SkillBadge
@@ -94,18 +95,13 @@ function Skills() {
                 icon={FaGitAlt}
                 title="Git"
               />
-              <SkillBadge
-                className="hover:bg-[#880000] skill-badge"
-                icon={SiMongoose}
-                title="Mongoose"
-              />
             </div>
           </Window>
         </div>
         <div className="md:w-1/2 sub-section">
           <Window title="stack.explained">
             <div className="px-2 py-4 md:py-6 lg:py-10 2xl:py-16 bg-secondary">
-              <p className=" text-tBase mb-1  text-base border-b border-dashed border-gray-500 mb-1 pb-1">
+              <p className=" text-tBase text-base border-b border-dashed border-gray-500 mb-1 pb-1">
                 <PiHandWaving title="Hi there" className="inline-block mr-1 " />
                 Hi there
               </p>
@@ -130,7 +126,7 @@ function Skills() {
                 ability to work with both fundamental and advanced development
                 approaches.
               </p>
-              <p className="text-base text-tBase  mb-1 mt-4">
+              <p className="text-sm text-tBase  border-b border-dashed border-gray-500 mb-1 pb-1 mt-4">
                 I also have hands-on experience with:
               </p>
               <p className=" text-tBaseSecondary text-sm">
