@@ -23,7 +23,7 @@ function HeroSection() {
           <div className="md:w-2/3 text-center md:text-start">
             <RoughNotationGroup show={true}>
               <h1 className="text-2xl font-bold text-tBase mb-4">
-                Hello! I&rsquo;m Vaibhav Rawat, a{" "}
+                Hello! I&apos;m Vaibhav Rawat, a{" "}
                 <RoughNotation
                   type="highlight"
                   animationDelay={1000}

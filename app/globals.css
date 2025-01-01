@@ -3,7 +3,7 @@
 @tailwind utilities;
 @layer components {
   .skill-badge {
-    @apply flex justify-center items-center w-14 h-14 lg:w-16 lg:h-16 p-2 border border-dashed border-gray-500 rounded-lg text-tBase hover:text-white;
+    @apply flex justify-center items-center w-16 h-16 p-2 border border-dashed border-gray-500 rounded-lg text-tBase hover:text-white;
   }
   .section {
     @apply container mx-auto my-6;
@@ -41,17 +41,14 @@ body {
   --color-text-base: #000000;
   --color-text-base-secondary: #141414;
 }
-
 .custom-height {
   --window-bar-height: 24px;
   height: calc(100% - var(--window-bar-height));
 }
-
 .swiper {
   width: 320px;
   height: 247px;
 }
-
 .swiper-slide {
   display: flex;
   align-items: center;
@@ -61,11 +58,9 @@ body {
   font-weight: bold;
   color: #fff;
 }
-
 .video-link:hover span {
   display: flex;
 }
-
 .bling {
   width: 15px;
   height: 15px;
@@ -89,7 +84,6 @@ body {
     transform: rotate(360deg) scale(0.8);
   }
 }
-
 .bling:before,
 .bling:after {
   content: "";
@@ -99,41 +93,27 @@ body {
   width: 1px;
   height: 100%;
   left: 7px;
-  background: linear-gradient(
-    to bottom,
-    transparent,
-    rgba(255, 255, 255, 0.7),
-    transparent
-  );
+  background: linear-gradient(to bottom, transparent, white, transparent);
 }
-
 .bling:after {
   width: 100%;
   height: 1px;
   top: 7px;
-  background: linear-gradient(
-    to left,
-    transparent,
-    rgba(255, 255, 255, 0.7),
-    transparent
-  );
+  background: linear-gradient(to left, transparent, white, transparent);
 }
-
 .bling-top {
   top: -7px;
-  right: 3px;
+  right: 8px;
 }
-
 .bling-bottom {
   width: 12px;
   height: 12px;
   bottom: 15px;
-  left: 2px;
+  left: 8px;
 }
 .bling-bottom:after {
   top: 6px;
 }
-
 .bling-bottom:before {
   left: 6px;
 }
