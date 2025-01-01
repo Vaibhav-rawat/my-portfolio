@@ -21,7 +21,7 @@ function Projects() {
         <div className="md:w-1/2 sub-section">
           <Window title="my.project">
             <VideoInDetail
-              href="https://specscart.co.uk/"
+              href="https://specscart.co.uk/glasses-collections/luxury-glasses"
               desc="Took on the challenge of developing a webpage for the
                 organization that exudes a sense of luxury, contributing to the
                 increase in sales of high-end products."
