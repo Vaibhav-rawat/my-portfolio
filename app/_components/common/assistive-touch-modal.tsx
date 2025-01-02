@@ -70,7 +70,7 @@ function AssistiveTouchModal({
 
   return (
     <>
-      <div className="absolute bg-black/80 z-10 h-full w-full top-0 left-0 glass-backdrop"></div>
+      <div className="absolute z-10 h-full w-full top-0 left-0 glass-backdrop"></div>
       <div
         ref={assistiveRef}
         className="fixed inset-1/2 translate-y-[-50%] translate-x-[-50%] w-72 h-72 rounded-md text-tBase p-8 flex justify-center flex-col bg-glass z-10"

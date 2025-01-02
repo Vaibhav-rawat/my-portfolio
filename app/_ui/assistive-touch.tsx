@@ -14,7 +14,7 @@ function AssistiveTouch() {
     <>
       <button
         title="Toggle Assistive Touch"
-        className="text-tBase fixed bg-glass top-4 right-4 rounded-full z-50"
+        className="text-tBase fixed bg-glass bottom-4 right-4 rounded-full z-50"
         onClick={() =>
           setShowAssistiveTouch((showAssistiveTouch) => !showAssistiveTouch)
         }
