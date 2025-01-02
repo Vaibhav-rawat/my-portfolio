@@ -110,7 +110,7 @@ function Skills() {
                 Tailwind CSS to leverage modern web development capabilities.
                 Previously, I built a{" "}
                 <Link
-                  href="https://vaibhavrawat.dev/"
+                  href="https://vaibhavrawat.netlify.app/"
                   target="_blank"
                   title="Checkout my old portfolio"
                 >
