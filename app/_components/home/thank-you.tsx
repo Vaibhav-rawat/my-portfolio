@@ -9,19 +9,19 @@ function ThankYou() {
       <div className="flex flex-col md:flex-row flex-wrap justify-center">
         <div className="md:w-1/2">
           <Window title="thank.you">
-            <div className="px-2 py-4 md:py-6 lg:py-10 2xl:py-16 bg-secondary text-center">
+            <div className="inner-container text-center">
               <p className="text-tBase text-sm border-b border-dashed border-gray-500 mb-2 pb-2">
                 <FaRegMessage
                   size={15}
                   title="Scroll to top"
                   className="inline-block mr-1"
                 />
-                If you&apos;re reading this, it means you&apos;ve spent your
-                valuable time exploring my portfolio, and I truly appreciate it.
-                Your attention to detail and eye for great talent are
-                commendable.
+                I&apos;m deeply humbled by the fact that you spent your valuable
+                time exploring my portfolio. Your attention to detail and eye
+                for great talent are commendable. Any form of feedback is
+                welcomed.
                 <br />
-                You can find my social handles at the top of the page.
+                My contact details are at the top of the page.
               </p>
               <ScrollToTop />
             </div>

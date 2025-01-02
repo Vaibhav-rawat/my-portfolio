@@ -24,7 +24,7 @@ function Skills() {
       <div className="flex flex-col md:flex-row">
         <div className="md:w-1/2">
           <Window title="my.stack">
-            <div className="flex gap-5 lg:gap-3 content-center justify-center flex-wrap bg-secondary custom-height px-2 py-4">
+            <div className="flex gap-5 lg:gap-3 content-center justify-center flex-wrap bg-secondary px-2 py-4">
               <SkillBadge
                 className="hover:bg-[#000000] skill-badge"
                 icon={RiNextjsFill}
@@ -100,16 +100,15 @@ function Skills() {
         </div>
         <div className="md:w-1/2 sub-section">
           <Window title="stack.explained">
-            <div className="px-2 py-4 md:py-6 lg:py-10 2xl:py-16 bg-secondary">
+            <div className="inner-container">
               <p className=" text-tBase text-base border-b border-dashed border-gray-500 mb-1 pb-1">
                 <PiHandWaving title="Hi there" className="inline-block mr-1 " />
                 Hi there
               </p>
               <p className=" text-tBaseSecondary  text-sm">
                 I designed and developed this portfolio using Next.js and
-                Tailwind CSS to leverage modern web development capabilities and
-                create a more sophisticated user experience. Previously, I built
-                a{" "}
+                Tailwind CSS to leverage modern web development capabilities.
+                Previously, I built a{" "}
                 <Link
                   href="https://vaibhavrawat.dev/"
                   target="_blank"
@@ -122,7 +121,7 @@ function Skills() {
                     className="inline-block"
                   />
                 </Link>{" "}
-                using vanilla React without external libraries, demonstrating my
+                using React and without external libraries, demonstrating my
                 ability to work with both fundamental and advanced development
                 approaches.
               </p>
@@ -131,7 +130,7 @@ function Skills() {
               </p>
               <p className=" text-tBaseSecondary text-sm">
                 MySQL, Styled Components, JWT, ApexCharts.js, Formik, Chakra UI,
-                React Hook Form, Yep, Owl Carousel, Flickity, etc.
+                React Hook Form, Yep, Owl Carousel, Swipper, etc.
               </p>
             </div>
           </Window>

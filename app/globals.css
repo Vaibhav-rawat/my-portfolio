@@ -11,6 +11,9 @@
   .sub-section {
     @apply mt-6 md:mt-0;
   }
+  .inner-container {
+    @apply px-2 py-4 md:py-6 lg:py-10 2xl:py-16 bg-secondary custom-height;
+  }
 }
 * {
   transition: background-color 0.3s ease, color 0.1s ease;
@@ -93,13 +96,23 @@ body {
   width: 1px;
   height: 100%;
   left: 7px;
-  background: linear-gradient(to bottom, transparent, white, transparent);
+  background: linear-gradient(
+    to bottom,
+    transparent,
+    var(--color-text-base),
+    transparent
+  );
 }
 .bling:after {
   width: 100%;
   height: 1px;
   top: 7px;
-  background: linear-gradient(to left, transparent, white, transparent);
+  background: linear-gradient(
+    to left,
+    transparent,
+    var(--color-text-base),
+    transparent
+  );
 }
 .bling-top {
   top: -7px;
@@ -116,4 +129,9 @@ body {
 }
 .bling-bottom:before {
   left: 6px;
+}
+@media (width >= 1536px) {
+  .custom-height {
+    --window-bar-height: 44px;
+  }
 }

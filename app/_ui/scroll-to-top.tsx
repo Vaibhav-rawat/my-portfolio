@@ -8,7 +8,7 @@ function ScrollToTop() {
       onClick={() => window.scrollTo(0, 0)}
       className="text-xs text-tBaseSecondary"
     >
-      Scroll to top{" "}
+      scroll to top{" "}
       <TbHandFinger size={13} title="Scroll to top" className="inline-block" />
     </button>
   );

@@ -1,9 +1,14 @@
+import React from "react";
 import { RoughNotation, RoughNotationGroup } from "react-rough-notation";
 import Window from "../common/window";
-import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { TbFileCv, TbBrandLinkedin, TbBrandInstagram } from "react-icons/tb";
+import {
+  TbFileCv,
+  TbBrandLinkedin,
+  TbBrandInstagram,
+  TbMessageDots,
+} from "react-icons/tb";
 
 function HeroSection() {
   return (
@@ -38,7 +43,7 @@ function HeroSection() {
               <p className="text-base text-tBaseSecondary mb-2">
                 I have{" "}
                 <RoughNotation
-                  type="circle"
+                  type="box"
                   animationDelay={1000}
                   color="burlywood"
                   multiline={true}
@@ -52,6 +57,7 @@ function HeroSection() {
                   color="burlywood"
                   multiline={true}
                   iterations={1}
+                  padding={3}
                 >
                   front-end
                 </RoughNotation>{" "}
@@ -62,6 +68,7 @@ function HeroSection() {
                   color="burlywood"
                   multiline={true}
                   iterations={1}
+                  padding={3}
                 >
                   back-end
                 </RoughNotation>{" "}
@@ -76,6 +83,7 @@ function HeroSection() {
                   type="underline"
                   animationDelay={1000}
                   color="burlywood"
+                  padding={3}
                 >
                   flexibility,
                 </RoughNotation>{" "}
@@ -83,6 +91,7 @@ function HeroSection() {
                   type="underline"
                   animationDelay={1000}
                   color="burlywood"
+                  padding={3}
                 >
                   clarity,
                 </RoughNotation>{" "}
@@ -91,6 +100,7 @@ function HeroSection() {
                   type="underline"
                   animationDelay={1000}
                   color="burlywood"
+                  padding={3}
                 >
                   collaboration.{" "}
                 </RoughNotation>
@@ -121,6 +131,13 @@ function HeroSection() {
                 href="https://www.instagram.com/vaibhav_rwtt/"
               >
                 <TbBrandInstagram size={39} />
+              </Link>
+              <Link
+                className="text-tBaseSecondary text-lg  inline-block "
+                title="Write an Email"
+                href="mailto:rawat4vaibhav@gmail.com"
+              >
+                <TbMessageDots size={35} />
               </Link>
             </div>
           </div>

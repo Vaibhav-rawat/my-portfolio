@@ -1,5 +1,7 @@
 import { FaCode } from "react-icons/fa";
 import InfoDetail from "./info-detail";
+import { CiAt } from "react-icons/ci";
+
 export type ExperienceTypes = {
   title: string;
   role: string;
@@ -16,12 +18,14 @@ type ExperienceCardProps = {
 };
 function ExperienceCard({ experience }: Readonly<ExperienceCardProps>) {
   return (
-    <div className="px-2 py-4 md:py-6 lg:py-10 2xl:py-16 bg-secondary custom-height">
+    <div className="inner-container ">
       <InfoDetail
         role={experience.role}
         website={experience.company.website}
         name={experience.company.name}
         duration={experience.duration}
+        icon={CiAt}
+        iconTitle="At"
       />
       <ul className="text-tBaseSecondary text-sm">
         {experience.responsibilities.map(

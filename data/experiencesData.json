@@ -8,10 +8,10 @@
       "website": "https://www.bounteous.com/"
     },
     "responsibilities": [
-      "Worked on Generative AI and AI prompt engineering to boost product adoption rate.",
-      "Enabled streaming of API responses to support streaming in the form of a custom scalable hook.",
-      "Implemented a solution to render Markdown API responses in a legible format, utilizing the Markdown library to ensure compliance with React security measures.",
-      "Led the seamless migration of the backend system from an older Node.js version (v10) to the latest one (v18), ensuring better performance and long-term sustainability."
+      "Collaborated with cross functional team ensuring seem less integration/migration of legacy stack with/to the modern stack.",
+      "Integrated various libraries, including schema validation, form management, to adhere to best security practices.",
+      "Maintained a perfect balance between stack holders and designers leading to more streamlined operations.",
+      "Responsible of writing test cases for the developed components resulting in robust and more optimized code from the outset."
     ]
   },
   {
@@ -26,7 +26,7 @@
       "Worked on Generative AI and AI prompt engineering to boost product adoption rate.",
       "Enabled streaming of API responses to support streaming in the form of a custom scalable hook.",
       "Implemented a solution to render Markdown API responses in a legible format, utilizing the Markdown library to ensure compliance with React security measures.",
-      "Led the seamless migration of the backend system from an older Node.js version (v10) to the latest one (v18), ensuring better performance and long-term sustainability."
+      "Led the seamless migration of the backend system from an older Node.js version (v10) to the latest one (v18), ensuring better performance and scalability."
     ]
   },
   {

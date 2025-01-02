@@ -17,7 +17,7 @@ function VideoInDetail({
   video,
 }: Readonly<VideoInDetailProps>) {
   return (
-    <div className="px-2 py-4 md:py-6 lg:py-10 2xl:py-16 bg-secondary text-center custom-height">
+    <div className="inner-container text-center">
       <Link
         title="visit the website"
         target="_blank"
