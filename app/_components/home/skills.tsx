@@ -20,11 +20,11 @@ import { GiJesterHat } from "react-icons/gi";
 
 function Skills() {
   return (
-    <section className="section">
+    <section className="section" id="skill-section">
       <div className="flex flex-col md:flex-row">
         <div className="md:w-1/2">
           <Window title="my.stack">
-            <div className="flex gap-5 lg:gap-3 content-center justify-center flex-wrap bg-secondary px-2 py-4">
+            <div className="flex gap-5 lg:gap-3 content-center justify-center flex-wrap bg-secondary px-2 py-4 custom-height">
               <SkillBadge
                 className="hover:bg-[#000000] skill-badge"
                 icon={RiNextjsFill}

@@ -130,6 +130,80 @@ body {
 .bling-bottom:before {
   left: 6px;
 }
+.assistive-touch {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  padding: 20px;
+}
+.assistive-touch li {
+  position: absolute;
+  text-align: center;
+  transform-origin: 210% 140%;
+  transition: all 0.5s linear;
+  top: 75px;
+  left: 40px;
+}
+.assistive-touch li span {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.assistive-touch li:nth-of-type(1) {
+  transform: rotate(300deg);
+}
+.assistive-touch li:nth-of-type(2) {
+  transform: rotate(240deg);
+}
+.assistive-touch li:nth-of-type(3) {
+  transform: rotate(180deg);
+}
+.assistive-touch li:nth-of-type(4) {
+  transform: rotate(120deg);
+}
+.assistive-touch li:nth-of-type(5) {
+  transform: rotate(60deg);
+}
+.assistive-touch li:nth-of-type(1) span {
+  transform: rotate(-300deg);
+}
+.assistive-touch li:nth-of-type(2) span {
+  transform: rotate(-240deg);
+}
+.assistive-touch li:nth-of-type(3) span {
+  transform: rotate(-180deg);
+}
+.assistive-touch li:nth-of-type(4) span {
+  transform: rotate(-120deg);
+}
+.assistive-touch li:nth-of-type(5) span {
+  transform: rotate(-60deg);
+}
+.bg-glass {
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.icon-animate {
+  transform: rotate(0deg);
+  animation: iconRotate 5s ease-in-out infinite;
+}
+@keyframes iconRotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(25deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
 @media (width >= 1536px) {
   .custom-height {
     --window-bar-height: 44px;

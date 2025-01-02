@@ -4,7 +4,7 @@ import ExperienceCard, { ExperienceTypes } from "@/app/_ui/experience-card";
 import ExperiencesData from "@/data/experiencesData.json";
 function Experience() {
   return (
-    <section className="section">
+    <section className="section" id="experience-section">
       <div className="flex flex-col md:flex-row flex-wrap justify-center">
         {ExperiencesData.map((experience: ExperienceTypes, index: number) => (
           <div

@@ -4,7 +4,7 @@ import VideoInDetail from "@/app/_ui/video-in-detail";
 
 function Projects() {
   return (
-    <section className="section">
+    <section className="section" id="project-section">
       <div className="flex flex-col md:flex-row">
         <div className="md:w-1/2">
           <Window title="my.project">

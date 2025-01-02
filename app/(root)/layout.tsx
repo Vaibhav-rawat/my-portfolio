@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import { Space_Mono } from "next/font/google";
 import "../globals.css";
-import { ThemeProvider } from "../_context/theme-provider";
+import { ThemeProvider } from "@/app/_context/theme-provider";
+import AssistiveTouch from "@/app/_ui/assistive-touch";
 
 export const metadata: Metadata = {
   title: "vaibhav.dev",
@@ -21,10 +22,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="scroll-smooth" data-theme="dark">
-      <body className={`${spaceMono.variable} bg-primary`}>
+      <body className={`${spaceMono.variable} relative bg-primary`}>
         <ThemeProvider>
           <main>{children}</main>
         </ThemeProvider>
+        <AssistiveTouch />
       </body>
     </html>
   );

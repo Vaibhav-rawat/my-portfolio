@@ -10,7 +10,7 @@ import { BsBook } from "react-icons/bs";
 
 function Education() {
   return (
-    <section className="section">
+    <section className="section" id="education-section">
       <div className="flex flex-col md:flex-row">
         <div className="md:w-1/2">
           <Window title="my.certificates">

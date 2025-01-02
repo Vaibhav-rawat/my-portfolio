@@ -12,7 +12,7 @@ import {
 
 function HeroSection() {
   return (
-    <section className="section">
+    <section className="section" id="home-section">
       <Window title="vaibhav.dev_">
         <div className="flex flex-col md:flex-row items-center justify-center bg-secondary px-2 gap-2 py-10 md:py-16 lg:py-16 2xl:py-36">
           <div className="md:w-1/3 text-center mb-5 md:mb-0 md:text-start">
@@ -43,7 +43,7 @@ function HeroSection() {
               <p className="text-base text-tBaseSecondary mb-2">
                 I have{" "}
                 <RoughNotation
-                  type="box"
+                  type="circle"
                   animationDelay={1000}
                   color="burlywood"
                   multiline={true}
