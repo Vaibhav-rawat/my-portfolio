@@ -16,9 +16,9 @@ function AssistiveAction({
   onClick,
 }: Readonly<AssistiveActionProps>) {
   const sharedContent = (
-    <span className="flex flex-col justify-center items-center relative font-bold">
+    <span className="flex flex-col justify-center items-center relative">
       <Icon size={45} title={title} />
-      <p className="text-tBaseSecondary text-xs absolute top-[110%]">{title}</p>
+      <p className="text-xs absolute top-[110%]">{title}</p>
     </span>
   );
   if (href) {

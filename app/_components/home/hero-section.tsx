@@ -22,6 +22,7 @@ function HeroSection() {
               height={380}
               width={285}
               src="/images/itsme.png"
+              priority={true}
               sizes="(min-width: 1040px) 285px, (min-width: 780px) 239px, (min-width: 400px) 285px, calc(33.75vw + 157px)"
             />
           </div>

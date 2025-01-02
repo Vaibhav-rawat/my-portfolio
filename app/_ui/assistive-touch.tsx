@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from "react";
-import { PiCompassThin } from "react-icons/pi";
+import { PiCompassDuotone } from "react-icons/pi";
 import dynamic from "next/dynamic";
 
 const DynamicAssistiveTouchModal = dynamic(
@@ -14,10 +14,12 @@ function AssistiveTouch() {
     <>
       <button
         title="Toggle Assistive Touch"
-        className="text-tBase fixed bg-glass bottom-4 right-4 rounded-md z-50"
-        onClick={() => setShowAssistiveTouch(!showAssistiveTouch)}
+        className="text-tBase fixed bg-glass top-4 right-4 rounded-full z-50"
+        onClick={() =>
+          setShowAssistiveTouch((showAssistiveTouch) => !showAssistiveTouch)
+        }
       >
-        <PiCompassThin size={40} className="icon-animate" />
+        <PiCompassDuotone size={50} className="icon-animate" />
       </button>
       {showAssistiveTouch && (
         <DynamicAssistiveTouchModal
