@@ -18,7 +18,6 @@
 * {
   transition: background-color 0.3s ease, color 0.1s ease;
 }
-
 body {
   font-family: var(--font-space-mono);
 }
@@ -36,10 +35,9 @@ body {
   --color-text-base: #000000;
   --color-text-base-secondary: #141414;
 }
-
 /* Retro theme */
 [data-theme="retro"] {
-  --color-primary: #c98686;
+  --color-primary: burlywood;
   --color-secondary: #fffcdf;
   --color-text-base: #000000;
   --color-text-base-secondary: #141414;
@@ -129,56 +127,6 @@ body {
 }
 .bling-bottom:before {
   left: 6px;
-}
-.assistive-touch {
-  position: relative;
-  height: 100%;
-  width: 100%;
-  padding: 20px;
-}
-.assistive-touch li {
-  position: absolute;
-  text-align: center;
-  transform-origin: 210% 140%;
-  transition: all 0.5s linear;
-  top: 75px;
-  left: 40px;
-}
-.assistive-touch li span {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.assistive-touch li:nth-of-type(1) {
-  transform: rotate(300deg);
-}
-.assistive-touch li:nth-of-type(2) {
-  transform: rotate(240deg);
-}
-.assistive-touch li:nth-of-type(3) {
-  transform: rotate(180deg);
-}
-.assistive-touch li:nth-of-type(4) {
-  transform: rotate(120deg);
-}
-.assistive-touch li:nth-of-type(5) {
-  transform: rotate(60deg);
-}
-.assistive-touch li:nth-of-type(1) span {
-  transform: rotate(-300deg);
-}
-.assistive-touch li:nth-of-type(2) span {
-  transform: rotate(-240deg);
-}
-.assistive-touch li:nth-of-type(3) span {
-  transform: rotate(-180deg);
-}
-.assistive-touch li:nth-of-type(4) span {
-  transform: rotate(-120deg);
-}
-.assistive-touch li:nth-of-type(5) span {
-  transform: rotate(-60deg);
 }
 .bg-glass {
   /* From https://css.glass */
