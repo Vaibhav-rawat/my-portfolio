@@ -42,9 +42,9 @@ function AssistiveTouchModal({
         aria-hidden="true"
       ></motion.div>
       <motion.div
-        initial={{ scale: 0, translate: "-50% -50%" }}
-        animate={{ scale: 1 }}
-        exit={{ opacity: 0, scale: 0 }}
+        initial={{ opacity: 0, translate: "-50% -20%" }}
+        animate={{ opacity: 1, translate: "-50% -50%" }}
+        exit={{ opacity: 0, translate: "-50% -20%" }}
         transition={{ duration: 0.6, type: spring }}
         className="fixed inset-1/2 w-72 h-72 rounded-md text-tBase p-8 flex justify-center flex-col bg-glass z-10"
       >
