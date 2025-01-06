@@ -16,7 +16,7 @@ function AssistiveAction({
   onClick,
 }: Readonly<AssistiveActionProps>) {
   const sharedContent = (
-    <span className="flex flex-col justify-center items-center relative">
+    <span className="flex flex-col justify-center items-center relative text-white">
       <Icon size={45} title={title} />
       <p className="text-xs absolute top-[110%]">{title}</p>
     </span>

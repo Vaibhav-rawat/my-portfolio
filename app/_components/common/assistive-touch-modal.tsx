@@ -9,7 +9,7 @@ import {
   PiCompassToolDuotone,
 } from "react-icons/pi";
 import AssistiveAction from "@/app/_ui/assistive-action";
-
+import { motion } from "motion/react";
 type AssistiveTouchModalProps = {
   showAssistiveTouch: boolean;
   setShowAssistiveTouch: (show: boolean) => void;
@@ -33,12 +33,20 @@ function AssistiveTouchModal({
 
   return (
     <>
-      <div
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        exit={{ opacity: 0 }}
         className="absolute z-10 h-full w-full top-0 left-0 glass-backdrop"
         onClick={() => setShowAssistiveTouch(false)}
         aria-hidden="true"
-      ></div>
-      <div className="fixed inset-1/2 translate-y-[-50%] translate-x-[-50%] w-72 h-72 rounded-md text-tBase p-8 flex justify-center flex-col bg-glass z-10">
+      ></motion.div>
+      <motion.div
+        initial={{ scale: 0, translate: "-50% -50%" }}
+        animate={{ scale: 1 }}
+        exit={{ opacity: 0, scale: 0 }}
+        className="fixed inset-1/2 w-72 h-72 rounded-md text-tBase p-8 flex justify-center flex-col bg-glass z-10"
+      >
         <div className="mt-4">
           <AssistiveAction
             icon={PiScanSmileyDuotone}
@@ -77,7 +85,7 @@ function AssistiveTouchModal({
             onClick={() => setShowAssistiveTouch(false)}
           />
         </div>
-      </div>
+      </motion.div>
     </>
   );
 }
