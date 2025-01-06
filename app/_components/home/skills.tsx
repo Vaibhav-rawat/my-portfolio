@@ -129,8 +129,8 @@ function Skills() {
                 I also have hands-on experience with:
               </p>
               <p className=" text-tBaseSecondary text-sm">
-                MySQL, Styled Components, JWT, ApexCharts.js, Formik, Chakra UI,
-                React Hook Form, Yep, Owl Carousel, Swipper, etc.
+                Motion, MySQL, Styled Components, JWT, ApexCharts.js, Formik,
+                Chakra UI, React Hook Form, Yep, Swipper, etc.
               </p>
             </div>
           </Window>
