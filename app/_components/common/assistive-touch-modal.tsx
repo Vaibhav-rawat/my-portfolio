@@ -9,7 +9,7 @@ import {
   PiCompassToolDuotone,
 } from "react-icons/pi";
 import AssistiveAction from "@/app/_ui/assistive-action";
-import { motion } from "motion/react";
+import { motion, spring } from "motion/react";
 type AssistiveTouchModalProps = {
   showAssistiveTouch: boolean;
   setShowAssistiveTouch: (show: boolean) => void;
@@ -45,6 +45,7 @@ function AssistiveTouchModal({
         initial={{ scale: 0, translate: "-50% -50%" }}
         animate={{ scale: 1 }}
         exit={{ opacity: 0, scale: 0 }}
+        transition={{ duration: 0.6, type: spring }}
         className="fixed inset-1/2 w-72 h-72 rounded-md text-tBase p-8 flex justify-center flex-col bg-glass z-10"
       >
         <div className="mt-4">
