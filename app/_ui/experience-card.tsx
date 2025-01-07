@@ -27,7 +27,7 @@ function ExperienceCard({ experience }: Readonly<ExperienceCardProps>) {
     }
   }, [isInView, animate]);
   return (
-    <div className="inner-container ">
+    <div className="inner-container">
       <InfoDetail
         role={experience.role}
         website={experience.company.website}

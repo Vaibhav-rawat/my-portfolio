@@ -12,7 +12,7 @@
     @apply mt-6 md:mt-0;
   }
   .inner-container {
-    @apply px-2 py-4 md:py-6 lg:py-10 2xl:py-16 bg-secondary custom-height;
+    @apply px-2 py-4 md:py-6 lg:py-10 2xl:py-16 custom-height bg-gradient;
   }
 }
 * {
@@ -42,6 +42,17 @@ body {
   --color-text-base: #000000;
   --color-text-base-secondary: #141414;
 }
+.bg-gradient {
+  /* Created with https://www.css-gradient.com */
+  background: linear-gradient(
+    45deg,
+    var(--color-primary),
+    var(--color-secondary)
+  );
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+}
+
 .custom-height {
   --window-bar-height: 24px;
   height: calc(100% - var(--window-bar-height));
