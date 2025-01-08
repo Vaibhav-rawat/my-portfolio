@@ -1,12 +1,8 @@
 "use client";
 import React, { useState } from "react";
 import { PiCompassDuotone } from "react-icons/pi";
-import dynamic from "next/dynamic";
 import { AnimatePresence } from "motion/react";
-
-const DynamicAssistiveTouchModal = dynamic(
-  () => import("../_components/common/assistive-touch-modal")
-);
+import AssistiveTouchModal from "@/app/_components/common/assistive-touch-modal";
 
 function AssistiveTouch() {
   const [showAssistiveTouch, setShowAssistiveTouch] = useState(false);
@@ -24,7 +20,7 @@ function AssistiveTouch() {
       </button>
       <AnimatePresence>
         {showAssistiveTouch && (
-          <DynamicAssistiveTouchModal
+          <AssistiveTouchModal
             showAssistiveTouch={showAssistiveTouch}
             setShowAssistiveTouch={setShowAssistiveTouch}
           />

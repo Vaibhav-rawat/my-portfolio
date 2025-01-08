@@ -26,72 +26,72 @@ function Skills() {
           <Window title="my.stack">
             <div className="flex gap-5 lg:gap-3 content-center justify-center flex-wrap bg-gradient px-2 py-4 custom-height">
               <SkillBadge
-                className="hover:bg-[#000000] skill-badge"
+                className="hover:bg-[#000000]"
                 icon={RiNextjsFill}
                 title="Next.js"
               />
               <SkillBadge
-                className="hover:bg-[#007acc] skill-badge"
+                className="hover:bg-[#007acc]"
                 icon={BiLogoTypescript}
                 title="TypeScript"
               />
               <SkillBadge
-                className="hover:bg-[#61dbfb] skill-badge"
+                className="hover:bg-[#61dbfb]"
                 icon={FaReact}
                 title="React"
               />
               <SkillBadge
-                className="hover:bg-[#3c873a] skill-badge"
+                className="hover:bg-[#3c873a]"
                 icon={FaNodeJs}
                 title="Node.js"
               />
               <SkillBadge
-                className="hover:bg-[#99425b] skill-badge"
+                className="hover:bg-[#99425b]"
                 icon={GiJesterHat}
                 title="Jest"
               />
               <SkillBadge
-                className="hover:bg-[#F0DB4F] skill-badge"
+                className="hover:bg-[#F0DB4F]"
                 icon={IoLogoJavascript}
                 title="JavaScript"
               />
               <SkillBadge
-                className="hover:bg-[#38bdf8] skill-badge"
+                className="hover:bg-[#38bdf8]"
                 icon={RiTailwindCssFill}
                 title="Tailwind"
               />
               <SkillBadge
-                className="hover:bg-[#3FA037] skill-badge"
+                className="hover:bg-[#3FA037]"
                 icon={SiMongodb}
                 title="MongoDB"
               />
               <SkillBadge
-                className="hover:bg-[#2965f1] skill-badge"
+                className="hover:bg-[#2965f1]"
                 icon={FaCss3Alt}
                 title="CSS3"
               />
               <SkillBadge
-                className="hover:bg-[#f06529] skill-badge"
+                className="hover:bg-[#f06529]"
                 icon={FaHtml5}
                 title="HTML5"
               />
               <SkillBadge
-                className="hover:bg-[#0769ad] skill-badge"
+                className="hover:bg-[#0769ad]"
                 icon={SiJquery}
                 title="JQuery"
               />
               <SkillBadge
-                className="hover:bg-[#0275d8] skill-badge"
+                className="hover:bg-[#0275d8]"
                 icon={FaBootstrap}
                 title="Bootstrap"
               />
               <SkillBadge
-                className="hover:bg-[#f5820d] skill-badge"
+                className="hover:bg-[#f5820d]"
                 icon={IoLogoFirebase}
                 title="Firebase"
               />
               <SkillBadge
-                className="hover:bg-[#f34f29] skill-badge"
+                className="hover:bg-[#f34f29]"
                 icon={FaGitAlt}
                 title="Git"
               />
@@ -102,7 +102,10 @@ function Skills() {
           <Window title="stack.explained">
             <div className="inner-container">
               <p className=" text-tBase text-base border-b border-dashed border-gray-500 mb-1 pb-1">
-                <PiHandWaving title="Hi there" className="inline-block mr-1 " />
+                <PiHandWaving
+                  title="Hi there"
+                  className="inline-block mr-1 icon-animate"
+                />
                 Hi there
               </p>
               <p className=" text-tBaseSecondary  text-sm">

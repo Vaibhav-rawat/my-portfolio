@@ -24,6 +24,7 @@ function CertificatesDeck() {
           fill={true}
           alt="AWS Essential Training for Developers"
           src="/images/aws-essential-training-for-developers.jpg"
+          sizes="320px"
         />
       </SwiperSlide>
       <SwiperSlide>
@@ -31,6 +32,7 @@ function CertificatesDeck() {
           fill={true}
           alt="Advanced Node.js Scaling Applications"
           src="/images/advanced-node-js-scaling-applications.jpg"
+          sizes="320px"
         />
       </SwiperSlide>
       <SwiperSlide>
@@ -38,6 +40,7 @@ function CertificatesDeck() {
           fill={true}
           alt="Creating a Serverless React Application in AWS"
           src="/images/creating-a-serverless-react-application-in-aws.jpg"
+          sizes="320px"
         />
       </SwiperSlide>
       <SwiperSlide>
@@ -45,6 +48,7 @@ function CertificatesDeck() {
           fill={true}
           alt="Next.js Creating and Hosting a Full Stack Site"
           src="/images/next-js-creating-and-hosting-a-full-stack-site.jpg"
+          sizes="320px"
         />
       </SwiperSlide>
     </Swiper>

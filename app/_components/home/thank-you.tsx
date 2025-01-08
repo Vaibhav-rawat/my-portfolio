@@ -16,10 +16,9 @@ function ThankYou() {
                   title="Scroll to top"
                   className="inline-block mr-1"
                 />
-                I&apos;m deeply humbled by the fact that you spent your valuable
-                time exploring my portfolio. Your attention to detail and eye
-                for great talent are commendable. Any form of feedback is
-                welcomed.
+                I&apos;m deeply humbled that you spent your valuable time
+                exploring my portfolio. Your attention to detail and eye for
+                great talent are commendable. Any form of feedback is welcomed.
                 <br />
                 My contact details are at the top of the page.
               </p>

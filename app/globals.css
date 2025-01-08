@@ -42,6 +42,33 @@ body {
   --color-text-base: #000000;
   --color-text-base-secondary: #141414;
 }
+[data-theme="light"] .border-gradient:hover,
+[data-theme="dark"] .border-gradient:hover {
+  border: 1px solid transparent;
+  background: linear-gradient(
+      142.48deg,
+      #2340d5 2.46%,
+      #2340d5 2.47%,
+      #c82e53 52.9%,
+      #7f2fcf 102.3%
+    )
+    border-box;
+}
+[data-theme="light"] .border-gradient:hover::after,
+[data-theme="dark"] .border-gradient:hover::after {
+  content: "";
+  inset: 0;
+  position: absolute;
+  z-index: -1;
+  filter: blur(4px);
+  background: linear-gradient(
+    142.48deg,
+    #2340d5 2.46%,
+    #2340d5 2.47%,
+    #c82e53 52.9%,
+    #7f2fcf 102.3%
+  );
+}
 .bg-gradient {
   /* Created with https://www.css-gradient.com */
   background: linear-gradient(
@@ -71,7 +98,7 @@ body {
   color: #fff;
 }
 .video-link:hover span {
-  display: flex;
+  opacity: 1;
 }
 .bling {
   width: 15px;

@@ -20,7 +20,7 @@ function Education() {
                 <MdOutlineSwipe
                   title="Swipe to shuffle deck"
                   size={13}
-                  className="ml-1 inline-block"
+                  className="ml-1 inline-block icon-animate"
                 />
               </p>
               <CertificatesDeck />

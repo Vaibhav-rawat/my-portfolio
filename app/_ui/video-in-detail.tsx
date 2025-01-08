@@ -27,7 +27,7 @@ function VideoInDetail({
       >
         <span
           aria-hidden={true}
-          className="h-full w-full absolute bg-black/60 justify-center hidden items-center"
+          className="h-full w-full absolute bg-black/60 justify-center flex items-center opacity-0 transition-opacity"
         >
           <PiEyeThin size={45} className="text-tBase text-white" />
         </span>
