@@ -55,9 +55,25 @@ const RandomShapes: React.FC = () => {
   };
 
   useEffect(() => {
+    let resizeTimeout: NodeJS.Timeout;
+    let lastWidth = window.innerWidth;
+
+    // ✅ Generate once on first mount
     generatePositions();
-    window.addEventListener("resize", generatePositions);
-    return () => window.removeEventListener("resize", generatePositions);
+
+    const handleResize = () => {
+      // 🚫 Ignore tiny height changes (mobile address bar scroll)
+      if (Math.abs(window.innerWidth - lastWidth) < 50) return;
+
+      clearTimeout(resizeTimeout);
+      resizeTimeout = setTimeout(() => {
+        lastWidth = window.innerWidth;
+        generatePositions(); // 🌀 regenerate only after resize settles
+      }, 400);
+    };
+
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
   }, []);
 
   return (
