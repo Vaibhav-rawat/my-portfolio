@@ -58,17 +58,17 @@ const RandomShapes: React.FC = () => {
     let resizeTimeout: NodeJS.Timeout;
     let lastWidth = window.innerWidth;
 
-    // ✅ Generate once on first mount
+    // Generate once on first mount
     generatePositions();
 
     const handleResize = () => {
-      // 🚫 Ignore tiny height changes (mobile address bar scroll)
+      // Ignore tiny height changes (mobile address bar scroll)
       if (Math.abs(window.innerWidth - lastWidth) < 50) return;
 
       clearTimeout(resizeTimeout);
       resizeTimeout = setTimeout(() => {
         lastWidth = window.innerWidth;
-        generatePositions(); // 🌀 regenerate only after resize settles
+        generatePositions(); // regenerate only after resize settles
       }, 400);
     };
 

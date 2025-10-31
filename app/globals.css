@@ -187,7 +187,7 @@ body {
 }
 .cool-shape {
   position: absolute;
-  animation: spinPulse 40s infinite linear;
+  animation: spinPulse 50s infinite linear;
   transform-origin: center;
 }
 @keyframes spinPulse {

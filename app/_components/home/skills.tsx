@@ -116,6 +116,7 @@ function Skills() {
                   href="https://vaibhavrawat.netlify.app/"
                   target="_blank"
                   title="Checkout my old portfolio"
+                  className="underline"
                 >
                   portfolio
                   <IoIosLink
