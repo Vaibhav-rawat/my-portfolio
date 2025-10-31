@@ -14,7 +14,7 @@ function HeroSection() {
   return (
     <section className="section" id="home-section">
       <Window title="vaibhav.dev_">
-        <div className="flex flex-col md:flex-row items-center justify-center bg-gradient px-2 gap-2 py-10 md:py-16 lg:py-16 2xl:py-36">
+        <div className="flex flex-col md:flex-row items-center justify-center bg-glass px-2 gap-2 py-10 md:py-16 lg:py-16 2xl:py-36">
           <div className="md:w-1/3 text-center mb-5 md:mb-0 md:text-start">
             <Image
               className="mx-auto rounded-lg shadow-xl	"
@@ -49,7 +49,7 @@ function HeroSection() {
                   color="burlywood"
                   multiline={true}
                 >
-                  4 years
+                  4.5 years
                 </RoughNotation>{" "}
                 of hands-on experience in{" "}
                 <RoughNotation

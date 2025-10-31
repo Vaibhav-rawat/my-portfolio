@@ -24,7 +24,7 @@ function Skills() {
       <div className="flex flex-col md:flex-row">
         <div className="md:w-1/2">
           <Window title="my.stack">
-            <div className="flex gap-5 lg:gap-3 content-center justify-center flex-wrap bg-gradient px-2 py-4 custom-height">
+            <div className="flex gap-5 lg:gap-3 content-center justify-center flex-wrap bg-glass px-2 py-4 custom-height">
               <SkillBadge
                 className="hover:bg-[#000000]"
                 icon={RiNextjsFill}

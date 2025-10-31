@@ -12,7 +12,7 @@
     @apply mt-6 md:mt-0;
   }
   .inner-container {
-    @apply px-2 py-4 md:py-6 lg:py-10 2xl:py-16 custom-height bg-gradient;
+    @apply px-2 py-4 md:py-6 lg:py-10 2xl:py-16 custom-height bg-glass;
   }
 }
 * {
@@ -28,12 +28,15 @@ body {
   --color-secondary: #3d3d3d;
   --color-text-base: #ffffff;
   --color-text-base-secondary: #dddddd;
+  --bg-glass-color: rgb(20 20 20 / 36%);
 }
 [data-theme="light"] {
   --color-primary: #eeeeee;
   --color-secondary: #ffffff;
   --color-text-base: #000000;
   --color-text-base-secondary: #141414;
+  --bg-glass-color: rgb(229 229 229 / 36%);
+
 }
 /* Retro theme */
 [data-theme="retro"] {
@@ -41,6 +44,8 @@ body {
   --color-secondary: #fffcdf;
   --color-text-base: #000000;
   --color-text-base-secondary: #141414;
+  --bg-glass-color: rgb(236 205 164 / 36%);
+
 }
 [data-theme="light"] .border-gradient:hover,
 [data-theme="dark"] .border-gradient:hover {
@@ -79,7 +84,10 @@ body {
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
 }
-
+.bg-glass {
+  background: var(--bg-glass-color);
+  backdrop-filter: blur(3px);
+}
 .custom-height {
   --window-bar-height: 24px;
   height: calc(100% - var(--window-bar-height));
@@ -166,15 +174,6 @@ body {
 .bling-bottom:before {
   left: 6px;
 }
-.bg-glass {
-  /* From https://css.glass */
-  background: rgba(0, 0, 0, 0.55);
-  border-radius: 16px;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(6.9px);
-  -webkit-backdrop-filter: blur(6.9px);
-  border: 1px solid rgba(0, 0, 0, 0.3);
-}
 .glass-backdrop {
   /* From https://css.glass */
   background: rgba(0, 0, 0, 0.08);
@@ -185,6 +184,28 @@ body {
 .icon-animate {
   transform: rotate(0deg);
   animation: iconRotate 5s ease-in-out infinite;
+}
+.cool-shape {
+  position: absolute;
+  animation: spinPulse 40s infinite linear;
+  transform-origin: center;
+}
+@keyframes spinPulse {
+  0% {
+    transform: rotate(0deg) scale(1);
+  }
+  25% {
+    transform: rotate(90deg) scale(1.2);
+  }
+  50% {
+    transform: rotate(180deg) scale(1);
+  }
+  75% {
+    transform: rotate(270deg) scale(0.8);
+  }
+  100% {
+    transform: rotate(360deg) scale(1);
+  }
 }
 @keyframes iconRotate {
   0% {
