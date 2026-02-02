@@ -223,35 +223,4 @@ body {
     --window-bar-height: 44px;
   }
 }
-
-/* Temporary CSS */
-
-.masterTab {
-  height: 45px;
-  width: 265px;
-}
-.tabs {
-  height: 40px;
-}
-.loadingRows {
-  display: flex;
-  gap: 32px;
-}
-.flexOne {
-  flex: 1;
-}
-.item {
-  height: 30px;
-}
-@media (max-width: 768px) {
-  .loadingRows {
-    flex-direction: column;
-  }
-  .loadingRows span:not(:first-child) {
-    display: none;
-  }
-  .item {
-    height: 150px;
-  }
-}
  

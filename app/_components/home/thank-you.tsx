@@ -3,8 +3,6 @@ import React from "react";
 import Window from "../common/window";
 import ScrollToTop from "@/app/_ui/scroll-to-top";
 import { FaRegMessage } from "react-icons/fa6";
-import Skeleton from "react-loading-skeleton";
-import "react-loading-skeleton/dist/skeleton.css";
 function ThankYou() {
   return (
     <section className="section">
@@ -24,16 +22,6 @@ function ThankYou() {
                 <br />
                 My contact details are at the top of the page.
               </p>
-              {/* START: Temporary Skeleton */}
-              <Skeleton className="masterTab" />
-              <Skeleton className="tabs" />
-              <div className="loadingRows">
-                <Skeleton containerClassName="flexOne" className="item" />
-                <Skeleton containerClassName="flexOne" className="item" />
-                <Skeleton containerClassName="flexOne" className="item" />
-                <Skeleton containerClassName="flexOne" className="item" />
-              </div>
-              {/* END: Temporary Skeleton */}
               <ScrollToTop />
             </div>
           </Window>
