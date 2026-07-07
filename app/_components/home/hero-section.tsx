@@ -49,7 +49,7 @@ function HeroSection() {
                   color="burlywood"
                   multiline={true}
                 >
-                  4.5 years
+                  5 years
                 </RoughNotation>{" "}
                 of hands-on experience in{" "}
                 <RoughNotation
