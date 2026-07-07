@@ -16,7 +16,7 @@ function SkillBadge({
     <div className="flex flex-col items-center gap-1 relative">
       <span className="bling bling-top"></span>
       <span className="bling bling-bottom"></span>
-      <Icon className={`${className} skill-badge`} title={title} />
+      <Icon className={`${className} skill-badge w-100`} title={title} />
       <p className="text-tBaseSecondary text-xs font-bold">{title}</p>
     </div>
   );

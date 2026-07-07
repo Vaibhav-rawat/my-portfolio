@@ -3,7 +3,7 @@
 @tailwind utilities;
 @layer components {
   .skill-badge {
-    @apply flex justify-center items-center w-16 h-16 p-2 border border-dashed border-gray-500 rounded-lg text-tBase hover:text-white;
+    @apply flex justify-center items-center w-full h-full xl:p-4 p-3 border border-dashed border-gray-500 rounded-lg text-tBase hover:text-white;
   }
   .section {
     @apply container mx-auto my-6;
